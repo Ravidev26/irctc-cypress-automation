@@ -71,7 +71,7 @@
 > ```
 ```
 {
-  "TRAIN_NO": "12318",
+  "TRAIN_NO": "z",
   "TRAIN_COACH": "3A",
   "TRAVEL_DATE": "12/09/2023",
   "SOURCE_STATION": "UMB",
@@ -109,35 +109,35 @@
 - You can add multiple passenger array of objects in `PASSENGER_DETAILS` as an example below
 ```
 {
-  "TRAIN_NO": "12318",
+  "TRAIN_NO": "22656",
   "TRAIN_COACH": "3A",
-  "TRAVEL_DATE": "12/09/2023",
-  "SOURCE_STATION": "UMB",
-  "BOARDING_STATION": null, <-- Change to full station name if required, else leave null
-  "DESTINATION_STATION": "BSB",
+  "TRAVEL_DATE": "14/08/2026",
+  "SOURCE_STATION": "NZM",
+  "BOARDING_STATION": NZM, <-- Change to full station name if required, else leave null
+  "DESTINATION_STATION": "PNVL",
   "TATKAL": true,
    "PREMIUM_TATKAL": false,
   "UPI_ID_CONFIG": "",
   "PASSENGER_DETAILS": [
     {
-      "NAME": "SHIVAM PANDEY",
+      "NAME": "Ravi jaiswal",
       "AGE": 26,
       "GENDER": "Male",
-      "SEAT": "Side Upper",
+      "SEAT": "no preference",
       "FOOD" "No Food"
     },
     {
-      "NAME": "Rachna Bhagat",
+      "NAME": "Sonu chaudhary",
       "AGE": 26,
-      "GENDER": "Female",
-      "SEAT": "Side Lower",
+      "GENDER": "Male",
+      "SEAT": "no preference",
       "FOOD" "No Food"
     },
     {
-      "NAME": "Passenger 3 Name",
+      "NAME": "Saurav singh",
       "AGE": 26,
-      "GENDER": "Female",
-      "SEAT": "Side Lower",
+      "GENDER": "Male",
+      "SEAT": "no preference",
       "FOOD" "No Food"
     }
   ],
@@ -154,8 +154,8 @@
 
 ```
 {
-    "USERNAME": "yourusername",
-    "PASSWORD": "yourpassword",
+    "USERNAME": "rvkumy",
+    "PASSWORD": "96014228@Irctcc",
     "MANUAL_CAPTCHA": false
 }
 ```
